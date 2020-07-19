@@ -1,0 +1,8 @@
+role PACKAGE::cfiotml extends role sap.hana.ide.roles::CatalogDeveloper, sap.hana.ide.roles::Developer, sap.hana.ide.roles::EditorDeveloper, sap.hana.xs.ide.roles::CatalogDeveloper, sap.hana.xs.ide.roles::Developer, sap.hana.xs.ide.roles::EditorDeveloper, sap.hana.xs.lm.roles::Developer, sap.hana.xs.lm.roles::DevelopmentExpert extends catalog role "AFL__SYS_AFL_APL_AREA_EXECUTE", "AFLPM_CREATOR_ERASER_EXECUTE"
+{
+catalog schema "SCHEMA": CREATE ANY, CREATE TEMPORARY TABLE, CREATE VIRTUAL FUNCTION PACKAGE, ALTER, DROP, EXECUTE, SELECT, INSERT, UPDATE, DELETE, INDEX, TRIGGER, DEBUG, REFERENCES, SELECT METADATA, SELECT CDS METADATA;
+
+
+package PACKAGE.SUB_PACKAGE: REPO.READ, REPO.EDIT_NATIVE_OBJECTS, REPO.ACTIVATE_NATIVE_OBJECTS, REPO.MAINTAIN_NATIVE_PACKAGES, REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_IMPORTED_PACKAGES;
+
+}

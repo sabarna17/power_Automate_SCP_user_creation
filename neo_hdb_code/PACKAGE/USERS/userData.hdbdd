@@ -1,0 +1,12 @@
+// Your custom Table to track the Created users
+namespace PACKAGE.USERS;
+@Schema: 'SCHEMA' 
+context userData {
+   Entity userCreateTable{
+       key emailid: String(120);
+        userlid: String(12);
+        phoneno: String(10);
+        name: String(100);
+        time: String(60);
+   };
+};

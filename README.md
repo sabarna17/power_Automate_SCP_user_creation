@@ -3,10 +3,10 @@ Automating SCP HANA DB User ID Creation by Power Automate
 This is a basic example for User ID creation for your organization.
 
 Used tool lists:
-1. Microsoft Forms
-2. Power Automation
-3. HANA XSJS 
-4. ‘.hdb’ Packages
+1.  Microsoft Forms
+2.  Power Automation
+3.  HANA XSJS 
+4.  ‘.hdb’ Packages
 
 Onboarding of SCP Users can be automated by AZURE Power Automation easily.
 
@@ -17,3 +17,6 @@ The process followed as Below:
 4.	Approver Approves the User Creation
 5.	SCP XSJS API is executed, and User ID has been generated with initial password.
 
+
+The Chart Image from the Chatbot window:
+![Architecture](https://github.com/sabarna17/power_Automate_SCP_user_creation/blob/master/Architecture.png)

@@ -28,7 +28,7 @@ try {
     
     // Assign role to the User:
 	fnSell = connection.loadProcedure('PUBLIC', 'GRANT_ACTIVATED_ROLE');
-	result = fnSell('PACKAGE::cfiotml',vJsonBody.r8b02a150bebe4531b645d54a6297b7a0);
+	result = fnSell('PACKAGE::hdb_role_file_name',vJsonBody.r8b02a150bebe4531b645d54a6297b7a0);
     connection.commit();    
     
     var response = {};

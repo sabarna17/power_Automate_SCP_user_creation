@@ -14,7 +14,7 @@ Integrations and Process Architecture:
 
 ## Steps followed:
 1.  Created Microsoft Forms - https://github.com/sabarna17/power_Automate_SCP_user_creation/blob/master/images/microsoftForms.png
-2.  Created flows in Power Automate - https://github.com/sabarna17/power_Automate_SCP_user_creation/blob/master/images/microsoftForms.png
+2.  Created flows in Power Automate - https://github.com/sabarna17/power_Automate_SCP_user_creation/blob/master/images/powerAutomate.png
 3.  Created Packages ‘.hdb’ files for tables, roles, procedure, xsjs - https://github.com/sabarna17/power_Automate_SCP_user_creation/blob/master/images/scp_HDB_Packages.png
 4.  Call the XSJS inside Power Automate
 
